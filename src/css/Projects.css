@@ -1,0 +1,27 @@
+/* Projects.css */
+
+.projects-container {
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  }
+  
+  .projects-title {
+    color: #003366; /* Dark blue for section titles */
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .projects-subtitle {
+    color: #006699; /* Medium blue for subtitles */
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  
+  .projects-body {
+    color: #333333; /* Dark gray for body text */
+    font-size: 1em;
+  }
+  
