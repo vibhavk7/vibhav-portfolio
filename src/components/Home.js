@@ -18,12 +18,17 @@ function Home() {
           <h1 className="name">Vibhav Kulkarni</h1>
 
           <div className="contact-info">
-            <a href="mailto:vibhavk765@gmail.com" className="contact-link">vibhavk765@gmail.com</a>
+          <a href="mailto:vibhavk765@gmail.com" className="contact-link">
+            <img src="/gmail.png" alt="Gmail" className="icon" /> vibhavk765@gmail.com
+          </a>
+
+            
             <span className="contact-separator">|</span>
             <span className="contact-link">+353 899539898</span>
             <span className="contact-separator">|</span>
-            <a href="https://www.linkedin.com/in/vibhav-kulkarni" className="contact-link" target="_blank" rel="noopener noreferrer">
-              LinkedIn
+            <a href="https://www.linkedin.com/in/vibhav-kulkarni-543069213/" className="contact-link" target="_blank" rel="noopener noreferrer">
+            <img src="/linkedin.png" alt="Gmail" className="icon" />
+            vibhav-kulkarni-543069213
             </a>
           </div>
 

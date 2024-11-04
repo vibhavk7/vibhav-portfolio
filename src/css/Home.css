@@ -1,5 +1,3 @@
-/* Home.css */
-
 /* Main container */
 .home-container {
   display: flex;
@@ -7,10 +5,42 @@
   align-items: center;
   padding: 130px;
   text-align: center;
-  background: rgba(30, 30, 30, 0.9); /* Black background for entire section */
-  position: relative; /* Necessary for absolute positioning of words */
-  color: #ffffff; /* Set text color to white */
+  background: linear-gradient(135deg, #000000, #1abcd5); /* Gradient background */
+  position: relative;
+  color: #ffffff;
   border-radius: 20px;
+  animation: floatContainer 12s ease-in-out infinite; /* Apply floating animation */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+  overflow: hidden; /* For extra floating elements if needed */
+}
+
+.icon {
+  width: 20px; /* Adjust size as needed */
+  height: 20px;
+  margin-right: px; /* Space between icon and text */
+  vertical-align: middle;
+}
+
+
+/* Floating animation for the container */
+@keyframes floatContainer {
+  0% {
+    transform: translate(0, 0);
+    background-position: 0% 50%; /* Background animation start */
+  }
+  50% {
+    transform: translate(0, -10px); /* Slight upward motion */
+    background-position: 100% 50%; /* Move background gradient */
+  }
+  100% {
+    transform: translate(0, 0);
+    background-position: 0% 50%; /* Reset */
+  }
+}
+
+/* Optional: Add glow effect on hover for container */
+.home-container:hover {
+  box-shadow: 0 0 30px rgba(235, 216, 9, 0.785);
 }
 
 /* Profile Summary */
@@ -27,6 +57,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 60px;
+  
 }
 
 .profile-image {
@@ -35,6 +66,12 @@
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
+}
+
+.profile-image:hover {
+  transform: scale(1.5); /* Zoom in smoothly to 150% */
+  z-index: 1; /* Ensure the image stays on top while zooming */
 }
 
 .name {
@@ -83,9 +120,11 @@
   position: absolute;
   font-weight: bold;
   white-space: nowrap;
-  animation: float 8s ease-in-out infinite;
+  animation: floatWord 10s ease-in-out infinite;
   font-size: calc(10px + 1.5vw); /* Responsive font size */
   opacity: 0.8; /* Make the words slightly transparent */
+  color: rgba(255, 255, 255, 0.8); /* Subtle white color */
+  transition: color 0.3s ease; /* Smooth transition on hover */
 }
 
 /* Individual positioning and tilt for each word */
@@ -104,11 +143,17 @@
 .word-cloud span:nth-child(13) { top: 5%; left: 40%; transform: rotate(15deg); animation-duration: 10s; color: hsl(120, 100%, 40%); }
 .word-cloud span:nth-child(14) { top: 50%; left: 90%; transform: rotate(-10deg); animation-duration: 12s; color: hsl(0, 0%, 93%); }
 
-/* Float animation with horizontal and vertical movement */
-@keyframes float {
+/* Float animation with horizontal and vertical movement for words */
+@keyframes floatWord {
   0% { transform: translate(0px, 0px); }
   25% { transform: translate(-10px, 5px); }
   50% { transform: translate(10px, -5px); }
   75% { transform: translate(-5px, -10px); }
   100% { transform: translate(0px, 0px); }
+}
+
+/* Hover effect for each word */
+.word-cloud span:hover {
+  color: #ffee58; /* Change color on hover */
+  transform: scale(1.1); /* Enlarge slightly */
 }
