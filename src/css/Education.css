@@ -25,3 +25,46 @@
     font-size: 1em;
   }
   
+
+  /* Mobile responsiveness */
+@media (max-width: 768px) {
+  .education-container {
+    padding: 15px;
+    margin-top: 15px;
+  }
+
+  .education-title {
+    font-size: 1.5em; /* Smaller font size for mobile */
+    margin-bottom: 8px;
+  }
+
+  .education-subtitle {
+    font-size: 1.3em; /* Slightly smaller subtitle font */
+    margin-bottom: 4px;
+  }
+
+  .education-body {
+    font-size: 0.9em; /* Slightly smaller body text */
+  }
+}
+
+@media (max-width: 480px) {
+  .education-container {
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .education-title {
+    font-size: 1.3em; /* Further reduce font size for very small screens */
+    margin-bottom: 6px;
+  }
+
+  .education-subtitle {
+    font-size: 1.1em;
+    margin-bottom: 3px;
+  }
+
+  .education-body {
+    font-size: 0.85em;
+  }
+}

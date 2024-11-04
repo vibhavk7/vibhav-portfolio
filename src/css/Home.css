@@ -157,3 +157,33 @@
   color: #ffee58; /* Change color on hover */
   transform: scale(1.1); /* Enlarge slightly */
 }
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+  .home-container {
+    padding: 20px;
+  }
+
+  .profile-summary {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+
+  .profile-content {
+    margin-top: 40px;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .profile-image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .word-cloud span {
+    font-size: calc(8px + 2vw); /* Smaller font for mobile */
+  }
+}

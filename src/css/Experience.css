@@ -45,3 +45,46 @@
 .experience-body li span {
   display: inline-block; /* Allow inline-block for animation */
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .experience-container {
+    padding: 15px; /* Reduced padding for tablets */
+    margin-top: 15px; /* Reduced margin for tablets */
+  }
+
+  .experience-title {
+    font-size: 1.5em; /* Smaller title font size for mobile */
+    margin-bottom: 8px;
+  }
+
+  .experience-subtitle {
+    font-size: 1.3em; /* Smaller subtitle font size */
+    margin-bottom: 4px;
+  }
+
+  .experience-body li {
+    margin-bottom: 8px; /* Adjust space between list items */
+  }
+}
+
+@media (max-width: 480px) {
+  .experience-container {
+    padding: 10px; /* Further reduced padding for small screens */
+    margin-top: 10px; /* Further reduced margin for small screens */
+  }
+
+  .experience-title {
+    font-size: 1.3em; /* Further reduce title font size */
+    margin-bottom: 6px;
+  }
+
+  .experience-subtitle {
+    font-size: 1.1em; /* Further reduce subtitle font size */
+    margin-bottom: 3px;
+  }
+
+  .experience-body li {
+    margin-bottom: 6px; /* Further reduce space between list items */
+  }
+}

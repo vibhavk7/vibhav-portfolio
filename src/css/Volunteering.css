@@ -25,3 +25,45 @@
     font-size: 1em;
   }
   
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .volunteering-container {
+      padding: 15px; /* Reduced padding for tablets */
+      margin-top: 15px; /* Reduced margin for tablets */
+  }
+
+  .volunteering-title {
+      font-size: 1.5em; /* Smaller title font size for mobile */
+      margin-bottom: 8px;
+  }
+
+  .volunteering-subtitle {
+      font-size: 1.3em; /* Smaller subtitle font size */
+      margin-bottom: 4px;
+  }
+
+  .volunteering-body {
+      font-size: 0.9em; /* Smaller body font size for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .volunteering-container {
+      padding: 10px; /* Further reduced padding for small screens */
+      margin-top: 10px; /* Further reduced margin for small screens */
+  }
+
+  .volunteering-title {
+      font-size: 1.3em; /* Further reduce title font size */
+      margin-bottom: 6px;
+  }
+
+  .volunteering-subtitle {
+      font-size: 1.1em; /* Further reduce subtitle font size */
+      margin-bottom: 3px;
+  }
+
+  .volunteering-body {
+      font-size: 0.8em; /* Further reduce body font size for mobile */
+  }
+}
