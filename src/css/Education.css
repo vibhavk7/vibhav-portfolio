@@ -27,7 +27,7 @@
   
 
   /* Mobile responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   .education-container {
     padding: 15px;
     margin-top: 15px;

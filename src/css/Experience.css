@@ -47,7 +47,7 @@
 }
 
 /* Mobile responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   .experience-container {
     padding: 15px; /* Reduced padding for tablets */
     margin-top: 15px; /* Reduced margin for tablets */
