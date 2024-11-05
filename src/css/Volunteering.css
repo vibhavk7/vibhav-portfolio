@@ -1,69 +1,39 @@
-/* Volunteering.css */
-
 .volunteering-container {
-    background-color: #ffffff; /* White background */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    margin-top: 20px;
-  }
-  
-  .volunteering-title {
-    color: #003366; /* Dark blue for section titles */
-    font-size: 1.8em;
-    margin-bottom: 10px;
-  }
-  
-  .volunteering-subtitle {
-    color: #006699; /* Medium blue for subtitles */
-    font-size: 1.5em;
-    margin-bottom: 5px;
-  }
-  
-  .volunteering-body {
-    color: #333333; /* Dark gray for body text */
-    font-size: 1em;
-  }
-  
-/* Mobile responsiveness */
-@media (max-width: 1080px) {
-  .volunteering-container {
-      padding: 15px; /* Reduced padding for tablets */
-      margin-top: 15px; /* Reduced margin for tablets */
-  }
-
-  .volunteering-title {
-      font-size: 1.5em; /* Smaller title font size for mobile */
-      margin-bottom: 8px;
-  }
-
-  .volunteering-subtitle {
-      font-size: 1.3em; /* Smaller subtitle font size */
-      margin-bottom: 4px;
-  }
-
-  .volunteering-body {
-      font-size: 0.9em; /* Smaller body font size for mobile */
-  }
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
 }
 
-@media (max-width: 480px) {
-  .volunteering-container {
-      padding: 10px; /* Further reduced padding for small screens */
-      margin-top: 10px; /* Further reduced margin for small screens */
-  }
+.volunteering-title {
+  color: #003366;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
 
-  .volunteering-title {
-      font-size: 1.3em; /* Further reduce title font size */
-      margin-bottom: 6px;
-  }
+.volunteering-subtitle {
+  color: #006699;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
 
-  .volunteering-subtitle {
-      font-size: 1.1em; /* Further reduce subtitle font size */
-      margin-bottom: 3px;
-  }
+.volunteering-body {
+  color: #333333;
+  font-size: 1em;
+}
 
-  .volunteering-body {
-      font-size: 0.8em; /* Further reduce body font size for mobile */
-  }
+/* Media Queries */
+@media only screen and (max-width: 1080px) {
+  .volunteering-container { padding: 15px; margin-top: 15px; }
+  .volunteering-title { font-size: 1.5em; }
+  .volunteering-subtitle { font-size: 1.3em; }
+  .volunteering-body { font-size: 0.95em; }
+}
+
+@media only screen and (max-width: 768px) {
+  .volunteering-container { padding: 10px; margin-top: 10px; }
+  .volunteering-title { font-size: 1.3em; }
+  .volunteering-subtitle { font-size: 1.1em; }
+  .volunteering-body { font-size: 0.9em; }
 }

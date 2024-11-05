@@ -1,70 +1,39 @@
-/* Education.css */
-
 .education-container {
-    background-color: #ffffff; /* White background */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    margin-top: 20px;
-  }
-  
-  .education-title {
-    color: #003366; /* Dark blue for section titles */
-    font-size: 1.8em;
-    margin-bottom: 10px;
-  }
-  
-  .education-subtitle {
-    color: #006699; /* Medium blue for subtitles */
-    font-size: 1.5em;
-    margin-bottom: 5px;
-  }
-  
-  .education-body {
-    color: #333333; /* Dark gray for body text */
-    font-size: 1em;
-  }
-  
-
-  /* Mobile responsiveness */
-@media (max-width: 1080px) {
-  .education-container {
-    padding: 15px;
-    margin-top: 15px;
-  }
-
-  .education-title {
-    font-size: 1.5em; /* Smaller font size for mobile */
-    margin-bottom: 8px;
-  }
-
-  .education-subtitle {
-    font-size: 1.3em; /* Slightly smaller subtitle font */
-    margin-bottom: 4px;
-  }
-
-  .education-body {
-    font-size: 0.9em; /* Slightly smaller body text */
-  }
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
 }
 
-@media (max-width: 480px) {
-  .education-container {
-    padding: 10px;
-    margin-top: 10px;
-  }
+.education-title {
+  color: #003366;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
 
-  .education-title {
-    font-size: 1.3em; /* Further reduce font size for very small screens */
-    margin-bottom: 6px;
-  }
+.education-subtitle {
+  color: #006699;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
 
-  .education-subtitle {
-    font-size: 1.1em;
-    margin-bottom: 3px;
-  }
+.education-body {
+  color: #333333;
+  font-size: 1em;
+}
 
-  .education-body {
-    font-size: 0.85em;
-  }
+/* Media Queries */
+@media only screen and (max-width: 1080px) {
+  .education-container { padding: 15px; margin-top: 15px; }
+  .education-title { font-size: 1.5em; }
+  .education-subtitle { font-size: 1.3em; }
+  .education-body { font-size: 0.95em; padding-left: 15px; }
+}
+
+@media only screen and (max-width: 768px) {
+  .education-container { padding: 10px; margin-top: 10px; }
+  .education-title { font-size: 1.3em; }
+  .education-subtitle { font-size: 1.1em; }
+  .education-body { font-size: 0.9em; padding-left: 10px; }
 }

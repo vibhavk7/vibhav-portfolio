@@ -1,69 +1,39 @@
-/* Projects.css */
-
 .projects-container {
-    background-color: #ffffff; /* White background */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    margin-top: 20px;
-  }
-  
-  .projects-title {
-    color: #003366; /* Dark blue for section titles */
-    font-size: 1.8em;
-    margin-bottom: 10px;
-  }
-  
-  .projects-subtitle {
-    color: #006699; /* Medium blue for subtitles */
-    font-size: 1.5em;
-    margin-bottom: 5px;
-  }
-  
-  .projects-body {
-    color: #333333; /* Dark gray for body text */
-    font-size: 1em;
-  }
-  
-/* Mobile responsiveness */
-@media (max-width: 1080px) {
-  .projects-container {
-      padding: 15px; /* Reduced padding for tablets */
-      margin-top: 15px; /* Reduced margin for tablets */
-  }
-
-  .projects-title {
-      font-size: 1.5em; /* Smaller title font size for mobile */
-      margin-bottom: 8px;
-  }
-
-  .projects-subtitle {
-      font-size: 1.3em; /* Smaller subtitle font size */
-      margin-bottom: 4px;
-  }
-
-  .projects-body {
-      font-size: 0.9em; /* Smaller body font size for mobile */
-  }
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
 }
 
-@media (max-width: 480px) {
-  .projects-container {
-      padding: 10px; /* Further reduced padding for small screens */
-      margin-top: 10px; /* Further reduced margin for small screens */
-  }
+.projects-title {
+  color: #003366;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
 
-  .projects-title {
-      font-size: 1.3em; /* Further reduce title font size */
-      margin-bottom: 6px;
-  }
+.projects-subtitle {
+  color: #006699;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
 
-  .projects-subtitle {
-      font-size: 1.1em; /* Further reduce subtitle font size */
-      margin-bottom: 3px;
-  }
+.projects-body {
+  color: #333333;
+  font-size: 1em;
+}
 
-  .projects-body {
-      font-size: 0.8em; /* Further reduce body font size for mobile */
-  }
-}  
+/* Media Queries */
+@media only screen and (max-width: 1080px) {
+  .projects-container { padding: 15px; margin-top: 15px; }
+  .projects-title { font-size: 1.5em; }
+  .projects-subtitle { font-size: 1.3em; }
+  .projects-body { font-size: 0.95em; }
+}
+
+@media only screen and (max-width: 768px) {
+  .projects-container { padding: 10px; margin-top: 10px; }
+  .projects-title { font-size: 1.3em; }
+  .projects-subtitle { font-size: 1.1em; }
+  .projects-body { font-size: 0.9em; }
+}
