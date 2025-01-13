@@ -44,6 +44,17 @@ function Projects() {
         </ul>
       </div>
       <div>
+        <h3 className="projects-subtitle">E-Commerce DataOps Pipeline</h3>
+        <p className="projects-subtitle">Technologies: Databricks, Spark, Azure Data Factory, Data Engineering, Synapse, Power BI</p>
+        <ul className="projects-body">
+          <li>Built a scalable, cloud-based architecture with Azure Data Factory, ADLS Gen2, and Databricks.</li>
+          <li>Implemented the Medallion Architecture for data organization (Bronze, Silver, Gold layers).</li>
+          <li>Ingested data from multiple sources (SQL DB, HTTP APIs, MongoDB).</li>
+          <li>Transformed and enriched datasets for insights using Spark.</li>
+          <li>Visualized results with Azure Synapse and Power BI.</li>
+        </ul>
+      </div>
+      <div>
         <h3 className="projects-subtitle">Sales Data Visualization</h3>
         <p className="projects-subtitle">Technologies: SQL, Power BI, ETL, Kaggle, Warehousing, Data Analysis, Data Pipelines</p>
         <ul className="projects-body">

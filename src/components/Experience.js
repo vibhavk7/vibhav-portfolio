@@ -39,6 +39,8 @@ function Experience() {
         <p className="experience-subtitle">July 2023 - June 2024</p>
         <ul className="experience-body">
           <li>Developed a versatile chatbot with text, graph (Highcharts), and table (Material-UI) outputs.</li>
+          <li>Developed RESTful APIs with Flask for XML-RPC protocol integration and chatbot features, enabling HRMS/CRM
+          operations.</li>
           <li>Improved SQL query generation through prompt engineering and optimized data formatting with Python wrappers.</li>
           <li>Utilized RTK Query for efficient endpoint calls and Redux for secure user credential storage.</li>
           <li>Conducted automated testing and continuous integration using Selenium and TestNG.</li>
