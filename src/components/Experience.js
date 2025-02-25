@@ -35,7 +35,7 @@ function Experience() {
     <div className='experience-container'>
       <h2 className="experience-title" align="center">Experience</h2>
       <div>
-        <h3 className="experience-subtitle">Skyline Labs Inc. - Software Developer Intern</h3>
+        <h3 className="experience-subtitle">Shoreline AI (Skyline Labs Inc.) - Software Developer Intern</h3>
         <p className="experience-subtitle">July 2023 - June 2024</p>
         <ul className="experience-body">
           <li>Developed a versatile chatbot with text, graph (Highcharts), and table (Material-UI) outputs.</li>
